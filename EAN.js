@@ -11,28 +11,28 @@ const EAN = function(){
     function makeSysCode(){
         let r = Random().discreteRangeIn(1,8);
             if (r==1){
-
+                return "471";
             }
             if (r==2){
-
+                return "482";
             }
             if (r==3){
-
+                return "486";
             }
             if (r==4){
-
+                return "535";
             }
             if (r==5){
-
+                return "560";
             }
             if (r==6){
-
+                return "613";
             }
             if (r==7){
-
+                return "625";
             }
             if (r==8){
-
+                return "076";
             }
     }
     function makeManCode(){
