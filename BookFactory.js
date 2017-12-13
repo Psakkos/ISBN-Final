@@ -15,4 +15,7 @@ const BookFactory = function (){
     return {createBook};
 }
 
+      let year= Random.discreteRangeIn(1990, 2017);
+      return year;
+      function createBook(year){};
 module.exports = BookFactory;
