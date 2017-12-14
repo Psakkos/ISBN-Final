@@ -1,5 +1,6 @@
 const ISBN = require("./ISBN.js");
 const EAN = require("./EAN.js");
+const Random= require("./Random.js");
 
 const BookFactory = function (){
 
@@ -14,8 +15,6 @@ const BookFactory = function (){
 
     return {createBook};
 }
+new BookFactory();
 
-      let year= Random.discreteRangeIn(1990, 2017);
-      return year;
-      function createBook(year){};
 module.exports = BookFactory;
